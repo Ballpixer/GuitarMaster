@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                                   xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+                                                   android:layout_height="match_parent" android:background="#F6F6F6">
+
+    <Button
+            android:text="Руководство"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/select_guide_button"
+            android:textColor="@android:color/holo_red_dark"
+            android:background="@drawable/background"
+            app:layout_constraintTop_toTopOf="parent" app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent" app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498" app:layout_constraintVertical_bias="0.262"/>
+    <Button
+            android:text="Библиотека аккордов"
+            android:layout_width="184dp"
+            android:layout_height="80dp" android:id="@+id/select_chord_library"
+            android:background="@drawable/background"
+            android:textColor="@android:color/holo_red_dark"
+            app:layout_constraintTop_toTopOf="parent" app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent" app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497" app:layout_constraintVertical_bias="0.463"/>
+    <Button
+            android:text="Метроном"
+            android:layout_width="wrap_content"
+            android:background="@drawable/background"
+            android:layout_height="wrap_content" android:id="@+id/select_metronome"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintVertical_bias="0.673" android:textColor="@android:color/holo_red_dark"/>
+</androidx.constraintlayout.widget.ConstraintLayout>
